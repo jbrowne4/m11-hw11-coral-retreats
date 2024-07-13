@@ -92,11 +92,44 @@
             </ul>
             <p>Song: "Kiss the Girl" – Relive the romantic moment in the tranquil lagoon.</p>
         </section>
-        
-        <section id="contact" class="content tab-content">
-            <h2>Contact Us</h2>
-            <p>Contact us at info@coralretreats.com</p>
+         <main>
+        <section class="contact">
+            <h1 class="contact__title">Get in Touch</h1>
+            <form action="contact_form_handler.php" method="post" class="contact__form">
+                <div class="contact__form-group">
+                    <label for="name" class="contact__label">Name:</label>
+                    <input type="text" id="name" name="name" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="email" class="contact__label">Email:</label>
+                    <input type="email" id="email" name="email" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="subject" class="contact__label">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="message" class="contact__label">Message:</label>
+                    <textarea id="message" name="message" class="contact__textarea" required></textarea>
+                </div>
+                <button type="submit" class="contact__button">Send Message</button>
+            </form>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__social">
+
+    <footer class="footer">
+        <div class="footer__social">
+            <!-- Social media links -->
+        </div>
+        <div class="footer__contact">
+            <p>Contact us at info@coralretreats.com</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
+        
