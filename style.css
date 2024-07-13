@@ -23,6 +23,11 @@ h3{
     color: var(--highlight-color)
 }
 
+.main__article__image {
+    width: 300px;
+    height: auto;
+}
+
 .nav {
     display: flex;
     justify-content: center;
