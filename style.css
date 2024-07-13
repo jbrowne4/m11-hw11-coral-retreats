@@ -116,6 +116,11 @@ h3{
         display: block;
         margin: 10px 0;
     }
+
+    .main__article__image {
+        display: block;
+        margin: 10px 0;
+    }
 }
 
 .footer {
