@@ -133,17 +133,3 @@ button, .button {
 button:hover, .button:hover {
     background-color: var(--highlight-color);
 }
-
-/* Tabs */
-.tab-content {
-    display: none;
-    padding: 20px;
-}
-
-.tab-content:target {
-    display: block;
-}
-
-#home.tab-content {
-    display: block;
-}
