@@ -8,38 +8,98 @@
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="destinations.html" class="nav__link">Destinations</a></li>
-                <li class="nav__item"><a href="tips.html" class="nav__link">Travel Tips</a></li>
-                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
-            </ul>
-        </nav>
+         <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" onclick="openTab(event, 'tab1')">Atlantica</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" onclick="openTab(event, 'tab2')">Ariel's Grotto</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" onclick="openTab(event, 'tab3')">Ursula's Lair</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" onclick="openTab(event, 'tab4')">Prince Eric's Castle</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h1 class="hero__title">Coral Retreats</h1>
-        </section>
+         <section class="hero">
+        <h1 class="hero__title">Welcome to Coral Retreats</h1>
+    </section>
+    <section class="content">
+        <p>Home Page Welcome to Coral Retreats! Embark on a journey through the enchanting locations inspired by Disney's "The Little Mermaid." Discover the magic, adventure, and romance of Ariel's world as you explore these unforgettably musical destinations.</p>
+        
+        <div id="tab1" class="tab-content active">
+            <h2>Atlantica: The Underwater Kingdom</h2>
+            <p>Welcome to Atlantica, the magnificent underwater kingdom ruled by King Triton. Dive into an underwater paradise where vibrant coral reefs and diverse marine life create a mesmerizing backdrop.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Royal Palace: Visit the grand palace where King Triton and his daughters reside.</li>
+                <li>Coral Reefs: Explore the colorful coral gardens teeming with marine creatures.</li>
+                <li>Underwater Concerts: Experience lively concerts featuring Atlantica’s finest musicians.</li>
+            </ul>
+            <h3>Activities:</h3>
+            <ul>
+                <li>Guided tours of the Royal Palace</li>
+                <li>Snorkeling and diving adventures</li>
+                <li>Marine life educational programs with a live concert</li>
+            </ul>
+            <p>Song: “Under the Sea" – anthem of underwater life, performed by Sebastian and the sea creatures.</p>
+        </div>
 
-        <section class="featured-destinations">
-            <h2 class="featured-destinations__title">Featured Destinations</h2>
-            <div class="featured-destinations__list">
-                <!-- Destination cards -->
-            </div>
-        </section>
-    </main>
+        <div id="tab2" class="tab-content">
+            <h2>Ariel's Grotto: A Hidden Treasure Trove</h2>
+            <p>Dive into Ariel's secret grotto, filled with her collection of human artifacts. This hidden cavern is a treasure trove of curiosities, showcasing Ariel's fascination with the human world.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Human Artifacts: See Ariel's collection of trinkets and treasures from the human world.</li>
+                <li>Hidden Cavern: Explore the mysterious and magical grotto where Ariel dreams of life on land.</li>
+                <li>Musical Wonders: Experience the magical ambiance that reflects Ariel's longing for adventure.</li>
+            </ul>
+            <h3>Activities:</h3>
+            <ul>
+                <li>Grotto tours with detailed artifact explanations</li>
+                <li>Interactive exhibits featuring human world wonders</li>
+                <li>Musical performances inspired by Ariel’s dreams</li>
+            </ul>
+            <p>Song: "Part of Your World" – Feel the longing and wonder of the human world.</p>
+        </div>
 
+        <div id="tab3" class="tab-content">
+            <h2>Ursula's Lair: The Sea Witch's Domain</h2>
+            <p>Enter the dark and mysterious lair of Ursula, the sea witch. This foreboding place is where Ursula concocts her powerful potions and schemes. It's an eerie yet fascinating site to explore.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Potion Room: See where Ursula creates her magical, musical potions.</li>
+                <li>Eel Companions: Meet Flotsam and Jetsam, Ursula's sinister eel sidekicks.</li>
+                <li>Cavernous Lair: Explore the dark and twisting tunnels of the lair.</li>
+            </ul>
+            <h3>Activities:</h3>
+            <ul>
+                <li>Lair tours with insights into Ursula's magic and music</li>
+                <li>Interactive potion-making demonstrations</li>
+                <li>Magic shows featuring Ursula’s tricks</li>
+            </ul>
+            <p>Song: “Poor Unfortunate Souls" – Feel the eerie and manipulative atmosphere of Ursula’s lair with her iconic song.</p>
+        </div>
+
+        <div id="tab4" class="tab-content">
+            <h2>Prince Eric's Castle: A Royal Escape</h2>
+            <p>Discover the enchanting seaside castle of Prince Eric. Nestled along the coastline, this grand estate offers breathtaking ocean views and a glimpse into royal life.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Grand Halls: Wander through the opulent rooms and corridors of the castle.</li>
+                <li>Gardens: Stroll through the lush gardens with stunning sea views.</li>
+                <li>Sea View Terrace: Enjoy panoramic views of the ocean.</li>
+            </ul>
+            <h3>Activities:</h3>
+            <ul>
+                <li>Guided tours of the castle</li>
+                <li>Garden picnics with a royal performance</li>
+                <li>Sunset views from the Sea View Terrace</li>
+            </ul>
+            <p>Song: "Kiss the Girl" – Relive the romantic moment in the tranquil lagoon.</p>
+        </div>
+    </section>
     <footer class="footer">
-        <div class="footer__social">
-            <!-- Social media links -->
-        </div>
-        <div class="footer__contact">
-            <p>Contact us at info@coralretreats.com</p>
-        </div>
+        <p>Contact us at info@coralretreats.com</p>
     </footer>
-
-    <script src="scripts.js"></script>
-</body>
 </html>
