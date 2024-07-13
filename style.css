@@ -1,1 +1,113 @@
+:root {
+    --primary-color: #8E77B2;
+    --secondary-color: #0E3049;
+    --accent-color: #2981;
+    --background-color: #E6C5DE;
+    --highlight-color: #9B242A;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--secondary-color);
+    padding: 1em 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    color: var(--background-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav__link:hover {
+    color: var(--highlight-color);
+}
+
+.hero {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 2em 0;
+}
+
+.hero__title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero__subtitle {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.featured-destinations {
+    padding: 2em;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+.featured-destinations__title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.featured-destinations__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.featured-destinations__image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.featured-destinations__image:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer__social a {
+    color: var(--background-color);
+    margin: 0 0.5em;
+    transition: color 0.3s;
+}
+
+.footer__social a:hover {
+    color: var(--highlight-color);
+}
+
+.footer__contact {
+    margin-top: 1em;
+}
 
