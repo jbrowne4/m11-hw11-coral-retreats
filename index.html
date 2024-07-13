@@ -21,13 +21,7 @@
     </header>
 
     <main>
-         <section class="hero">
-        <h1 class="hero__title">Welcome to Coral Retreats</h1>
-    </section>
-    <section class="content">
-        <p>Welcome to Coral Retreats! Embark on a journey through the enchanting locations inspired by Disney's "The Little Mermaid." Discover the magic, adventure, and romance of Ariel's world as you explore these unforgettably musical destinations.</p>
-        
-        <div id="tab1" class="tab-content active">
+          <section id="tab1" class="content tab-content">
             <h2>Atlantica: The Underwater Kingdom</h2>
             <p>Welcome to Atlantica, the magnificent underwater kingdom ruled by King Triton. Dive into an underwater paradise where vibrant coral reefs and diverse marine life create a mesmerizing backdrop.</p>
             <img src="https://github.com/jbrowne4/m11-hw11-coral-retreats/raw/main/images/under.sea.castle.jpg" alt="Triton's Castle" class="main__article__image">
@@ -44,9 +38,9 @@
                 <li>Marine life educational programs with a live concert</li>
             </ul>
             <p>Song: “Under the Sea" – anthem of underwater life, performed by Sebastian and the sea creatures.</p>
-        </div>
+        </section>
 
-        <div id="tab2" class="tab-content">
+        <section id="tab2" class="content tab-content">
             <h2>Ariel's Grotto: A Hidden Treasure Trove</h2>
             <p>Dive into Ariel's secret grotto, filled with her collection of human artifacts. This hidden cavern is a treasure trove of curiosities, showcasing Ariel's fascination with the human world.</p>
             <img src="https://github.com/jbrowne4/m11-hw11-coral-retreats/raw/julia/images/The%20Grove.jpg" alt="Ariel's Grotto" class="main__article__image">
@@ -63,9 +57,9 @@
                 <li>Musical performances inspired by Ariel’s dreams</li>
             </ul>
             <p>Song: "Part of Your World" – Feel the longing and wonder of the human world.</p>
-        </div>
+        </section>
 
-        <div id="tab3" class="tab-content">
+        <section id="tab3" class="content tab-content">
             <h2>Ursula's Lair: The Sea Witch's Domain</h2>
             <p>Enter the dark and mysterious lair of Ursula, the sea witch. This foreboding place is where Ursula concocts her powerful potions and schemes. It's an eerie yet fascinating site to explore.</p>
             <img src="https://github.com/jbrowne4/m11-hw11-coral-retreats/raw/julia/images/the%20lair.jpg" alt="Ursula's Lair" class="main__article__image">
@@ -82,9 +76,9 @@
                 <li>Magic shows featuring Ursula’s tricks</li>
             </ul>
             <p>Song: “Poor Unfortunate Souls" – Feel the eerie and manipulative atmosphere of Ursula’s lair with her iconic song.</p>
-        </div>
+        </section>
 
-        <div id="tab4" class="tab-content">
+        <section id="tab4" class="content tab-content">
             <h2>Prince Eric's Castle: A Royal Escape</h2>
             <p>Discover the enchanting seaside castle of Prince Eric. Nestled along the coastline, this grand estate offers breathtaking ocean views and a glimpse into royal life.</p>
             <img src="https://github.com/jbrowne4/m11-hw11-coral-retreats/raw/julia/images/Eric's%20Castle.jpg" alt="Eric's Castle" class="main__article__image">
@@ -101,9 +95,45 @@
                 <li>Sunset views from the Sea View Terrace</li>
             </ul>
             <p>Song: "Kiss the Girl" – Relive the romantic moment in the tranquil lagoon.</p>
-        </div>
-    </section>
+        </section>
+         <main>
+        <section class="contact">
+            <h1 class="contact__title">Get in Touch</h1>
+            <form action="contact_form_handler.php" method="post" class="contact__form">
+                <div class="contact__form-group">
+                    <label for="name" class="contact__label">Name:</label>
+                    <input type="text" id="name" name="name" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="email" class="contact__label">Email:</label>
+                    <input type="email" id="email" name="email" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="subject" class="contact__label">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="contact__input" required>
+                </div>
+                <div class="contact__form-group">
+                    <label for="message" class="contact__label">Message:</label>
+                    <textarea id="message" name="message" class="contact__textarea" required></textarea>
+                </div>
+                <button type="submit" class="contact__button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
     <footer class="footer">
-        <p>Contact us at info@coralretreats.com</p>
+        <div class="footer__social">
+
+    <footer class="footer">
+        <div class="footer__social">
+            <!-- Social media links -->
+        </div>
+        <div class="footer__contact">
+            <p>Contact us at info@coralretreats.com</p>
+        </div>
     </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
+        
