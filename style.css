@@ -1,15 +1,15 @@
 :root {
     --primary-color: #8E77B2;
-    --secondary-color: #0E3049;
-    --accent-color: #2981;
-    --background-color: #E6C5DE;
+    --text-color: #0e3049;
+    --text-color-lighter: #2981c3;
+    --secondary-color: #e6c5de;
     --highlight-color: #9B242A;
+    --background-color: white; 
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--background-color);
-    color: var(--secondary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text-color-lighter);
     margin: 0;
     padding: 0;
 }
@@ -34,19 +34,19 @@ body {
 }
 
 .nav__link {
-    color: var(--background-color);
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .nav__link:hover {
-    color: var(--highlight-color);
+    color: var(--text-color-lighter);
 }
 
 .hero {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     padding: 2em 0;
 }
@@ -63,8 +63,8 @@ body {
 
 .featured-destinations {
     padding: 2em;
-    background-color: var(--background-color);
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .featured-destinations__title {
@@ -90,15 +90,23 @@ body {
     transform: scale(1.05);
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
 .footer {
     background-color: var(--secondary-color);
-    color: var(--background-color);
+    color: var(--text-color-lighter);
     text-align: center;
     padding: 1em 0;
 }
 
 .footer__social a {
-    color: var(--background-color);
+    color: var(--secondary-color);
     margin: 0 0.5em;
     transition: color 0.3s;
 }
@@ -110,4 +118,3 @@ body {
 .footer__contact {
     margin-top: 1em;
 }
-
