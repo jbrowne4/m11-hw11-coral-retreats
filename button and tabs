@@ -118,3 +118,32 @@ body {
 .footer__contact {
     margin-top: 1em;
 }
+
+/* Buttons */
+button, .button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: var(--highlight-color);
+}
+
+/* Tabs */
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content:target {
+    display: block;
+}
+
+#home.tab-content {
+    display: block;
+}
