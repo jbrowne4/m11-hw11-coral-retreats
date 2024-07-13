@@ -9,7 +9,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--text-color-lighter);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
@@ -17,6 +17,15 @@ body {
 .header {
     background-color: var(--secondary-color);
     padding: 1em 0;
+}
+
+h3{
+    color: var(--highlight-color)
+}
+
+.main__article__image {
+    width: 300px;
+    height: auto;
 }
 
 .nav {
@@ -91,8 +100,8 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    nav a {
+@media (max-width: 700px) {
+    .nav__list {
         display: block;
         margin: 10px 0;
     }
