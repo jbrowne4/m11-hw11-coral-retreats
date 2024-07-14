@@ -1,4 +1,5 @@
 # m11-hw11-coral-retreats
+  Logo  Mood ![image](https://github.com/user-attachments/assets/26d7add7-0f86-42b8-abd3-334ce6c82114)
 
 Color Palette: 
 #8E77B2: Primary background color
@@ -32,6 +33,3 @@ Page 5:
 Page 5: Contact 
 
 Wireframe: Canva link https://www.canva.com/design/DAGKmAO2kxM/kOW3H_mgUn2k4d6uCULN3g/edit?utm_content=DAGKmAO2kxM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
-
-
-![image](https://github.com/user-attachments/assets/17bb4585-db2f-4776-a1db-269ae3f5b388)
