@@ -1,5 +1,5 @@
 # m11-hw11-coral-retreats
-  Logo  Mood ![image](https://github.com/user-attachments/assets/26d7add7-0f86-42b8-abd3-334ce6c82114)
+  Logo and Moodboard ![image](https://github.com/user-attachments/assets/26d7add7-0f86-42b8-abd3-334ce6c82114)
 
 Color Palette: 
 #8E77B2: Primary background color
